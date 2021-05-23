@@ -17,10 +17,8 @@ def generate_students(counter):
 
 
 def read_file(filename):
-    # f = open(filename)
     CM_PER_INCH = 2.54
     with open(filename) as f:
         content = f.read()
-    # f.close()
-    cm = 42 * CM_PER_INCH
+    # cm = 42 * CM_PER_INCH
     return content
