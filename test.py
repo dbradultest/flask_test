@@ -59,5 +59,3 @@ def get_students():
     return result
 
 app.run(debug=True, port=5001)
-
-
