@@ -66,8 +66,7 @@ def get_students():
     location="query"
 )
 def get_customers(first_name=None, last_name=None):
-    records = get_customers_by_name(first_name=None, last_name=None)
-    # print(records)
+    records = get_customers_by_name(first_name, last_name)
     return format_records(records)
 
 app.run(debug=True, port=5001)
